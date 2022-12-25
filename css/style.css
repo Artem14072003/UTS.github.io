@@ -1249,20 +1249,6 @@ iframe{
     
     /* FOOTER 4 блочных */
 
-    /* @media (max-width: 723px) {
-        .footer__content{
-            gap: 25px;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-        }
-         
-        .footer-content__item{
-            flex-grow: 1;
-         }
-
-    } */
-
     @media (max-width: 723px) {
         .footer__content{
             gap: 25px;
