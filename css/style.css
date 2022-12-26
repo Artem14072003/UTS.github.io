@@ -10,6 +10,7 @@
     --color-black: #000;
     --color-href: #00B2FF;
     --color-white: #fff;
+    --color-whitegrey: #ececec;
 }
 
 /* Для body мы укажем  */
@@ -251,7 +252,7 @@ nav.v-menu > ul > li > a{
     height: 100%;
     font-size: 17px;
     text-decoration: none;
-    color: #111;
+    color: var(--color-black);
     background-color: transparent;
     z-index: 1;
 }
@@ -293,7 +294,7 @@ span.swiper-pagination-bullet{
     right: 0;
     top: 0;
     background-color: var(--color-white);
-    color: #fff;
+    color: var(--color-white);
     border-radius: 0;
     margin: 0 15px 0 0 !important;
     opacity: 1;
@@ -359,8 +360,11 @@ main{
     flex-wrap: wrap;
     min-height: 50rem;
     padding: 2.5rem 3rem;
-    background-color: #fff;
+    background-color: var(--color-white);
 }
+
+/* NAVBAR */
+
 .navbar{
     width: 277px;
     height: 1082px;
@@ -439,8 +443,10 @@ main{
     border-top: 1px solid rgba(255,255,255,.4);
 }
 
+/* CARD */
+
 .content{
-    color: #000;
+    color: var(--color-black);
     flex: 2;
     padding-left: 50px;
 }
@@ -467,7 +473,7 @@ li{
 
 .accordion .info{
     overflow: hidden;
-    background: #ececec;
+    background: var(--color-whitegrey);
     padding: 5px 10px;
 }
 
@@ -490,13 +496,13 @@ ul{
 
 .accordion .info ul> li > a {
     font-family: "Corporate A Condensed","Arial","Helvetica","san-serif";
-    color: #000;
+    color: var(--color-black);
     text-decoration: none;
 }
 
 .accordion .info2{
     overflow: hidden;
-    background: #ececec;
+    background: var(--color-whitegrey);
     padding: 5px 10px;
 }
 
@@ -592,7 +598,7 @@ h2{
     align-items: flex-start;
     flex-wrap: wrap;
     padding: 20px 15px;
-    background-color: #ececec;
+    background-color: var(--color-whitegrey);
     margin-top: 25px;
     margin-bottom: 32px;
     margin-left: -4px;
@@ -636,6 +642,8 @@ p {
     height: 164px;
     margin-left: 5px;
 }
+
+/* HOVER */
 
 main a:hover,
 .navbar > .accordion a:hover{
