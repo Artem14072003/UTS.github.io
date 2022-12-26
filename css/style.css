@@ -308,6 +308,8 @@ span.swiper-pagination-bullet-active{
     padding-left: 5px;
 }
 
+/* Filter */
+
 aside{
     position: relative;
     display: none;
@@ -337,6 +339,7 @@ aside{
     right: 15px;
     background: url(./../img/filter/ic-filter.svg) no-repeat;
 }
+
 /* MAIN */
 
 main{
@@ -634,6 +637,11 @@ p {
     margin-left: 5px;
 }
 
+main a:hover,
+.navbar > .accordion a:hover{
+    transition: color 0.2s ease-in;
+    color: var(--color-href);
+}
 
 
 /* FOOTER */
